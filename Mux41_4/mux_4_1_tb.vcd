@@ -1,0 +1,79 @@
+$date
+	Sun Jun 15 08:35:01 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module mux_4_1_tb $end
+$var wire 4 ! y [3:0] $end
+$var reg 4 " d0 [3:0] $end
+$var reg 4 # d1 [3:0] $end
+$var reg 4 $ d2 [3:0] $end
+$var reg 4 % d3 [3:0] $end
+$var reg 2 & sel [1:0] $end
+$scope module uut $end
+$var wire 4 ' d0 [3:0] $end
+$var wire 4 ( d1 [3:0] $end
+$var wire 4 ) d2 [3:0] $end
+$var wire 4 * d3 [3:0] $end
+$var wire 2 + sel [1:0] $end
+$var wire 4 , y [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 ,
+b0 +
+b1000 *
+b100 )
+b10 (
+b1 '
+b0 &
+b1000 %
+b100 $
+b10 #
+b1 "
+b1 !
+$end
+#10000
+b11 !
+b11 ,
+b1 &
+b1 +
+b11 #
+b11 (
+b0 "
+b0 '
+#20000
+b111 !
+b111 ,
+b10 &
+b10 +
+b111 $
+b111 )
+b0 #
+b0 (
+#30000
+b1111 !
+b1111 ,
+b11 &
+b11 +
+b1111 %
+b1111 *
+b0 $
+b0 )
+#40000
+b0 !
+b0 ,
+b0 &
+b0 +
+b0 %
+b0 *
+#50000

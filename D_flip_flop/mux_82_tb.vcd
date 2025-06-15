@@ -1,0 +1,60 @@
+$date
+	Sun Jun 15 09:49:52 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module mux_82_tb $end
+$var wire 8 ! out [7:0] $end
+$var reg 8 " d1 [7:0] $end
+$var reg 8 # d2 [7:0] $end
+$var reg 8 $ d3 [7:0] $end
+$var reg 8 % d4 [7:0] $end
+$var reg 2 & sel [1:0] $end
+$scope module uut $end
+$var wire 8 ' d1 [7:0] $end
+$var wire 8 ( d2 [7:0] $end
+$var wire 8 ) d3 [7:0] $end
+$var wire 8 * d4 [7:0] $end
+$var wire 2 + sel [1:0] $end
+$var wire 8 , out [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 ,
+b0 +
+b100 *
+b11 )
+b10 (
+b1 '
+b0 &
+b100 %
+b11 $
+b10 #
+b1 "
+b1 !
+$end
+#10000
+b10 !
+b10 ,
+b1 &
+b1 +
+#20000
+b11 !
+b11 ,
+b10 &
+b10 +
+#30000
+b100 !
+b100 ,
+b11 &
+b11 +
+#40000
